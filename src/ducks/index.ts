@@ -5,7 +5,7 @@ import thunk from 'redux-thunk';
 import authReducer from './auth';
 
 const rootReducer = combineReducers({
-  counter: authReducer
+  userAuth: authReducer
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

@@ -1,6 +1,12 @@
+import styles from './styles.module.scss';
+
 function Loading() {
   return (
-    <h2> Loading </h2>
+    <div className={styles.container}>
+      <div className={styles['loading-container']}>
+        <div className={styles.loading} />
+      </div>
+    </div>
   );
 }
 
